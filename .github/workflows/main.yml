@@ -1,0 +1,66 @@
+name: Daily Update
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '45 21 15 * *'
+
+jobs:
+  run_script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Check the shell script permission
+      run: chmod +x gh-proxy-url-replacer.sh
+
+    - name: Run lige icon proxy shell script
+      run: |
+        ICON_SRC_URL="https://raw.githubusercontent.com/lige47/QuanX-icon-rule/refs/heads/main/lige-emby-icon.json"
+        ICON_PATH="lige47/QuanX-icon-rule/lige-emby-icon.json"
+        ./gh-proxy-url-replacer.sh $ICON_SRC_URL $ICON_PATH
+
+    - name: Run Baitang icon proxy shell script
+      run: |
+        ICON_SRC_URL="https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Yuan/tubiao.json"
+        ICON_PATH="baiitang/Sakura/Fileball/Yuan/tubiao.json"
+        ./gh-proxy-url-replacer.sh $ICON_SRC_URL $ICON_PATH
+        
+        ICON_SRC_URL="https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Fang/tubiao.json"
+        ICON_PATH="baiitang/Sakura/Fileball/Fang/tubiao.json"
+        ./gh-proxy-url-replacer.sh $ICON_SRC_URL $ICON_PATH
+
+    - name: Run Gikerwan icon proxy shell script
+      run: |
+        ICON_SRC_URL="https://raw.githubusercontent.com/ginibond/ginibond/main/Icons/emby/tubiao.json"
+        ICON_PATH="ginibond/ginibond/Icons/emby/tubiao.json"
+        ./gh-proxy-url-replacer.sh $ICON_SRC_URL $ICON_PATH
+
+    - name: Run Softlyx icon proxy shell script
+      run: |
+        ICON_SRC_URL="https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/tubiao.json"
+        ICON_PATH="Softlyx/Fileball/YUAN/tubiao.json"
+        ./gh-proxy-url-replacer.sh $ICON_SRC_URL $ICON_PATH
+        
+        ICON_SRC_URL="https://raw.githubusercontent.com/Softlyx/Fileball/main/FANG/tubiao.json"
+        ICON_PATH="Softlyx/Fileball/FANG/tubiao.json"
+        ./gh-proxy-url-replacer.sh $ICON_SRC_URL $ICON_PATH
+
+    - name: Commit and push if changed
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add -A
+        if ! git diff --staged --quiet; then
+          git commit -m "Auto-update icon proxy files"
+          git push
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    env:
+      TZ: Asia/Shanghai
