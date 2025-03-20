@@ -8,7 +8,7 @@
 
 > Github Proxy：`https://ghfast.top` 或 `https://gh-proxy.com`
 
-## 每月 15 日 21: 45 更新
+## 每月 15 日 21: 45 自动更新
 
 考虑到图标不常更新，所以 Cron 定了每月更新一次。
 
@@ -102,6 +102,8 @@ https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Emby-icon-collectio
 
 
 ## 直连代理加速替换实现教程
+
+教程只是给对原理感兴趣的人看的，不感兴趣的朋友忽略这个章节只看上面的即可~
 
 ### 替换原理
 
