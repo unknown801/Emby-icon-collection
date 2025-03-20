@@ -101,7 +101,7 @@ https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Emby-icon-collectio
 > 仓库地址：[Softlyx/Fileball](https://github.com/Softlyx/Fileball)
 
 
-## 直连代理加速替换教程
+## 直连代理加速替换实现教程
 
 ### 替换原理
 
@@ -111,7 +111,7 @@ echo $(curl $ICON_SRC_URL | sed "s|https://raw.githubusercontent.com|https://ghf
 
 ### 例子
 
-以白糖方行图标包为例：
+以白糖方形图标包为例：
 
 URL 为 [https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Fang/tubiao.json](https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Fang/tubiao.json)
 - 👉 PATH=`baiitang/Sakura/Fileball/Fang/tubiao.json`
@@ -128,7 +128,7 @@ FINAL_ICON_PATH="https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Em
 echo $FINAL_ICON_PATH
 ```
 
-把以上封装成脚本 `gh-proxy-url-replacer.sh` 后调用：
+把以上命令封装成脚本 `gh-proxy-url-replacer.sh` 后调用：
 
 ```shell
 ./gh-proxy-url-replacer.sh https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Fang/tubiao.json baiitang/Sakura/Fileball/Fang/tubiao.json
