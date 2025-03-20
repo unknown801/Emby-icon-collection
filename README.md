@@ -21,7 +21,7 @@ https://raw.githubusercontent.com/lige47/QuanX-icon-rule/refs/heads/main/lige-em
 直连加速：
 
 ```
-https://ghfast.top/https://raw.githubusercontent.com/Reborn/Emby-icon-collection/refs/heads/main/lige47/QuanX-icon-rule/lige-emby-icon.json
+https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Emby-icon-collection/refs/heads/main/lige47/QuanX-icon-rule/lige-emby-icon.json
 ```
 
 > 仓库地址：[lige47/QuanX-icon-rule](https://github.com/lige47/QuanX-icon-rule)
@@ -38,7 +38,7 @@ https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Yuan/tubiao.json
 直连加速：
 
 ```
-https://ghfast.top/https://raw.githubusercontent.com/Reborn/Emby-icon-collection/refs/heads/main/baiitang/Sakura/Fileball/Yuan/tubiao.json
+https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Emby-icon-collection/refs/heads/main/baiitang/Sakura/Fileball/Yuan/tubiao.json
 ```
 
 #### 方形
@@ -50,7 +50,7 @@ https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Fang/tubiao.json
 直连加速：
 
 ```
-https://ghfast.top/https://raw.githubusercontent.com/Reborn/Emby-icon-collection/refs/heads/main/baiitang/Sakura/Fileball/Fang/tubiao.json
+https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Emby-icon-collection/refs/heads/main/baiitang/Sakura/Fileball/Fang/tubiao.json
 ```
 
 > - 仓库地址：[baiitang/Sakura](https://github.com/baiitang/Sakura)
@@ -65,7 +65,7 @@ https://raw.githubusercontent.com/ginibond/ginibond/main/Icons/emby/tubiao.json
 直连加速：
 
 ```
-https://ghfast.top/https://raw.githubusercontent.com/Reborn/Emby-icon-collection/refs/heads/main/ginibond/ginibond/Icons/emby/tubiao.json
+https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Emby-icon-collection/refs/heads/main/ginibond/ginibond/Icons/emby/tubiao.json
 ```
 
 > - 仓库地址：[ginibond/ginibond](https://github.com/ginibond/ginibond)
@@ -83,7 +83,7 @@ https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/tubiao.json
 直连加速：
 
 ```
-https://ghfast.top/https://raw.githubusercontent.com/Reborn/Emby-icon-collection/refs/heads/main/Softlyx/Fileball/YUAN/tubiao.json
+https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Emby-icon-collection/refs/heads/main/Softlyx/Fileball/YUAN/tubiao.json
 ```
 
 #### 方形
@@ -95,7 +95,7 @@ https://raw.githubusercontent.com/Softlyx/Fileball/main/FANG/tubiao.json
 直连加速：
 
 ```
-https://ghfast.top/https://raw.githubusercontent.com/Reborn/Emby-icon-collection/refs/heads/main/Softlyx/Fileball/FANG/tubiao.json
+https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Emby-icon-collection/refs/heads/main/Softlyx/Fileball/FANG/tubiao.json
 ```
 
 > 仓库地址：[Softlyx/Fileball](https://github.com/Softlyx/Fileball)
@@ -115,7 +115,7 @@ echo $(curl $ICON_SRC_URL | sed "s|https://raw.githubusercontent.com|https://ghf
 
 URL 为 [https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Fang/tubiao.json](https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Fang/tubiao.json)
 - 👉 PATH=`baiitang/Sakura/Fileball/Fang/tubiao.json`
-- 👉 最终结果=[https://ghfast.top/https://raw.githubusercontent.com/Reborn/Emby-icon-collection/refs/heads/main/baiitang/Sakura/Fileball/Fang/tubiao.json](https://ghfast.top/https://raw.githubusercontent.com/Reborn/Emby-icon-collection/refs/heads/main/baiitang/Sakura/Fileball/Fang/tubiao.json)
+- 👉 最终结果=[https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Emby-icon-collection/refs/heads/main/baiitang/Sakura/Fileball/Fang/tubiao.json](https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Emby-icon-collection/refs/heads/main/baiitang/Sakura/Fileball/Fang/tubiao.json)
 
 完整命令如下：
 
@@ -124,7 +124,7 @@ ICON_SRC_URL="https://raw.githubusercontent.com/baiitang/Sakura/main/Fileball/Fa
 ICON_PATH="baiitang/Sakura/Fileball/Fang/tubiao.json"
 mkdir $(dirname $ICON_PATH) -p
 echo $(curl $ICON_SRC_URL | sed "s|https://raw.githubusercontent.com|https://ghfast.top/https://raw.githubusercontent.com|g") | sed "s|https:\\\/\\\/raw.githubusercontent.com|https:\\\/\\\/ghfast.top\\\/https:\\\/\\\/raw.githubusercontent.com|g" > $ICON_PATH
-FINAL_ICON_PATH="https://ghfast.top/https://raw.githubusercontent.com/Reborn/Emby-icon-collection/refs/heads/main/$ICON_PATH"
+FINAL_ICON_PATH="https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Emby-icon-collection/refs/heads/main/$ICON_PATH"
 echo $FINAL_ICON_PATH
 ```
 
