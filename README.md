@@ -111,6 +111,8 @@ https://ghfast.top/https://raw.githubusercontent.com/RebornQ/Emby-icon-collectio
 echo $(curl $ICON_SRC_URL | sed "s|https://raw.githubusercontent.com|https://ghfast.top/https://raw.githubusercontent.com|g") | sed "s|https:\\\/\\\/raw.githubusercontent.com|https:\\\/\\\/ghfast.top\\\/https:\\\/\\\/raw.githubusercontent.com|g" > $ICON_PATH
 ```
 
+这样就可以通过 sed 用法把 `$ICON_SRC_URL` 中的内容都替换成直连代理加速链接，写入到路径 `$ICON_PATH` 啦~
+
 ### 例子
 
 以白糖方形图标包为例：
